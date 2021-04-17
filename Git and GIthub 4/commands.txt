@@ -1,0 +1,111 @@
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git branch
+* master
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git branch feature
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ vi views/index.jade
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   views/index.jade
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git log --oneline
+89312ae (HEAD -> master, origin/master, origin/HEAD, feature) Update README.md
+c29699a Update README.md
+f317eff Update README.md
+adeb516 Update README.md
+38dd6da Update README.md
+5abd498 Update README.md
+f35b3ac first commit
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git restore views/index.jade
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git branch
+  feature
+* master
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
+$ git checkout feature
+Switched to branch 'feature'
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ vi views/index.jade
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ git status
+On branch feature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   views/index.jade
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ git add .
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ git commit -m 'changed heading'
+[feature c45f1b5] changed heading
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ git status
+On branch feature
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ vi README.md
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ git status
+On branch feature
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$ git push origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 413 bytes | 413.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/vinaykumarbandi/train-schedule-app/pull/new/feature
+remote:
+To https://github.com/vinaykumarbandi/train-schedule-app.git
+ * [new branch]      feature -> feature
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (feature)
+$
