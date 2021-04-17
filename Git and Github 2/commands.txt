@@ -1,0 +1,50 @@
+Vinay@DESKTOP-57EDE47 MINGW64 ~
+$ pwd
+/c/Users/Vinay
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~
+$ mkdir web-api
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~
+$ cd web-api
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api
+$ git init
+Initialized empty Git repository in C:/Users/Vinay/web-api/.git/
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ touch README.md
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ vi README.md
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git commit -m 'initialized git'
+[master (root-commit) 36c8ddd] initialized git
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$
