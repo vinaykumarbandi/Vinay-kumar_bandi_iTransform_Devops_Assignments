@@ -1,0 +1,82 @@
+Vinay@DESKTOP-57EDE47 MINGW64 ~
+$ git clone https://github.com/vinaykumarbandi/content-git-quickstart.git
+Cloning into 'content-git-quickstart'...
+remote: Enumerating objects: 23, done.
+remote: Total 23 (delta 0), reused 0 (delta 0), pack-reused 23
+Receiving objects: 100% (23/23), done.
+Resolving deltas: 100% (5/5), done.
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~
+$ cd content-git-quickstart
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (master)
+$ git branch twist
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (master)
+$ git checkout twist
+Switched to branch 'twist'
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (twist)
+$ touch plot16.txt
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (twist)
+$ vi plot16.txt
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (twist)
+$ git status
+On branch twist
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        plot16.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (twist)
+$ git add plot16.txt
+warning: LF will be replaced by CRLF in plot16.txt.
+The file will have its original line endings in your working directory
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (twist)
+$ git commit -m 'airplane story'
+[twist d4179a1] airplane story
+ 1 file changed, 1 insertion(+)
+ create mode 100644 plot16.txt
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (twist)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (master)
+$ git merge twist
+Updating 4127938..d4179a1
+Fast-forward
+ plot16.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 plot16.txt
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 317 bytes | 317.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/vinaykumarbandi/content-git-quickstart.git
+   4127938..d4179a1  master -> master
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/content-git-quickstart (master)
+$
