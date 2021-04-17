@@ -16,6 +16,7 @@ $ git branch feature
 Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
 $ vi views/index.jade
 
+
 Vinay@DESKTOP-57EDE47 MINGW64 ~/train-schedule-app (master)
 $ git status
 On branch master
