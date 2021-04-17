@@ -1,0 +1,61 @@
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git branch fix-readme
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git checkout fix-readme
+Switched to branch 'fix-readme'
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (fix-readme)
+$ vi README.md
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (fix-readme)
+$ git status
+On branch fix-readme
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (fix-readme)
+$ git add .
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (fix-readme)
+$ git commit -m 'edited readme file'
+[fix-readme c002dc4] edited readme file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (fix-readme)
+$ git status
+On branch fix-readme
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (fix-readme)
+$ git checkout master
+Switched to branch 'master'
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git merge fix-readme
+Updating 5114428..c002dc4
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Vinay@DESKTOP-57EDE47 MINGW64 ~/web-api (master)
+$ git branch
+  fix-readme
+* master
