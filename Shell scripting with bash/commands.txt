@@ -1,0 +1,824 @@
+Vinay@DESKTOP-57EDE47 ~/script
+$ cd /
+
+Vinay@DESKTOP-57EDE47 /
+$ pwd
+/
+
+Vinay@DESKTOP-57EDE47 /
+$ cd home/Vinay
+
+Vinay@DESKTOP-57EDE47 ~
+$ pwd
+/home/Vinay
+
+Vinay@DESKTOP-57EDE47 ~
+$ cd script
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ls -l
+total 15
+drwxr-xr-x+ 1 Vinay None   0 Apr 18 16:01 dir1
+-rwxr-xr-x  1 Vinay None 133 Apr 16 13:08 dircheck.sh
+-rwxr--r--  1 Vinay None 134 Apr 16 14:11 filecheck.sh
+-rwxr-xr-x  1 Vinay None 133 Apr 16 12:48 helloscript.sh
+-rwxr-xr-x  1 Vinay None  82 Apr 18 14:14 mkdir.sh
+-rwxr-xr-x  1 Vinay None  81 Apr 16 14:04 mkfile.sh
+-rw-r--r--  1 Vinay None  25 Apr 18 14:19 null.txt
+drwxr-xr-x+ 1 Vinay None   0 Apr 16 11:33 pics
+-rwxr-xr-x  1 Vinay None 154 Apr 18 14:06 question2.sh
+-rwxr-xr-x  1 Vinay None  80 Apr 18 14:19 question4.sh
+-rwxr-xr-x  1 Vinay None 311 Apr 18 16:08 question5.sh
+-rwxr--r--  1 Vinay None 524 Apr 16 12:32 scriptfile.sh
+-rwxr-xr-x  1 Vinay None 190 Apr 17 17:36 takenote.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question5.sh
+': not a valid identifieread: `num1
+': not a valid identifieread: `num2
+./question5.sh: line 4: + : syntax error: operand expected (error token is "+ ")
+
+': not a valid identifieread: `direct
+./question5.sh: line 13: syntax error: unexpected end of file
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question5.sh
+./question5.sh: line 2: $'\r': command not found
+': not a valid identifieread: `num1
+': not a valid identifieread: `num2
+") yntax error: operand expected (error token is "
+
+': not a valid identifieread: `direct
+./question5.sh: line 18: syntax error: unexpected end of file
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ls-l
+-bash: ls-l: command not found
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ls -l
+total 15
+drwxr-xr-x+ 1 Vinay None   0 Apr 18 16:01 dir1
+-rwxr-xr-x  1 Vinay None 133 Apr 16 13:08 dircheck.sh
+-rwxr--r--  1 Vinay None 134 Apr 16 14:11 filecheck.sh
+-rwxr-xr-x  1 Vinay None 133 Apr 16 12:48 helloscript.sh
+-rwxr-xr-x  1 Vinay None  82 Apr 18 14:14 mkdir.sh
+-rwxr-xr-x  1 Vinay None  81 Apr 16 14:04 mkfile.sh
+-rw-r--r--  1 Vinay None  25 Apr 18 14:19 null.txt
+drwxr-xr-x+ 1 Vinay None   0 Apr 16 11:33 pics
+-rwxr-xr-x  1 Vinay None 154 Apr 18 14:06 question2.sh
+-rwxr-xr-x  1 Vinay None  80 Apr 18 14:19 question4.sh
+-rwxr-xr-x  1 Vinay None 406 Apr 18 16:58 question5.sh
+-rwxr--r--  1 Vinay None 524 Apr 16 12:32 scriptfile.sh
+-rwxr-xr-x  1 Vinay None 190 Apr 17 17:36 takenote.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ls -l
+total 15
+drwxr-xr-x+ 1 Vinay None   0 Apr 18 16:01 dir1
+-rwxr-xr-x  1 Vinay None 133 Apr 16 13:08 dircheck.sh
+-rwxr--r--  1 Vinay None 134 Apr 16 14:11 filecheck.sh
+-rwxr-xr-x  1 Vinay None 133 Apr 16 12:48 helloscript.sh
+-rwxr-xr-x  1 Vinay None  82 Apr 18 14:14 mkdir.sh
+-rwxr-xr-x  1 Vinay None  81 Apr 16 14:04 mkfile.sh
+-rw-r--r--  1 Vinay None  25 Apr 18 14:19 null.txt
+drwxr-xr-x+ 1 Vinay None   0 Apr 16 11:33 pics
+-rwxr-xr-x  1 Vinay None 154 Apr 18 14:06 question2.sh
+-rwxr-xr-x  1 Vinay None  80 Apr 18 14:19 question4.sh
+-rwxr-xr-x  1 Vinay None 406 Apr 18 16:58 question5.sh
+-rwxr--r--  1 Vinay None 524 Apr 16 12:32 scriptfile.sh
+-rwxr-xr-x  1 Vinay None 190 Apr 17 17:36 takenote.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ls -l
+total 15
+drwxr-xr-x+ 1 Vinay None   0 Apr 18 16:01 dir1
+-rwxr-xr-x  1 Vinay None 133 Apr 16 13:08 dircheck.sh
+-rwxr--r--  1 Vinay None 134 Apr 16 14:11 filecheck.sh
+-rwxr-xr-x  1 Vinay None 133 Apr 16 12:48 helloscript.sh
+-rwxr-xr-x  1 Vinay None   0 Apr 18 17:11 kkkk.txt
+-rwxr-xr-x  1 Vinay None  82 Apr 18 14:14 mkdir.sh
+-rwxr-xr-x  1 Vinay None  81 Apr 16 14:04 mkfile.sh
+-rw-r--r--  1 Vinay None  25 Apr 18 14:19 null.txt
+drwxr-xr-x+ 1 Vinay None   0 Apr 16 11:33 pics
+-rwxr-xr-x  1 Vinay None 154 Apr 18 14:06 question2.sh
+-rwxr-xr-x  1 Vinay None  80 Apr 18 14:19 question4.sh
+-rwxr-xr-x  1 Vinay None 406 Apr 18 16:58 question5.sh
+-rwxr--r--  1 Vinay None 524 Apr 16 12:32 scriptfile.sh
+-rwxr-xr-x  1 Vinay None 190 Apr 17 17:36 takenote.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ cd ..
+
+Vinay@DESKTOP-57EDE47 ~
+$ rm script/kkkk.txt
+
+Vinay@DESKTOP-57EDE47 ~
+$ ls -l
+total 7
+-rwxr-xr-x  1 Vinay None 183 Apr 15 11:57 hw.txt
+-rwxr--r--  1 Vinay None   0 Apr 15 12:07 newfile.txt
+-rwxr-xr-x  1 Vinay None  34 Apr 15 09:43 notes.txt
+drwxr-xr-x+ 1 Vinay None   0 Apr 18 17:12 script
+-rwxr-xr-x  1 Vinay None  48 Apr 17 17:36 todolist.txt
+
+Vinay@DESKTOP-57EDE47 ~
+$ cd script
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ls -l
+total 15
+drwxr-xr-x+ 1 Vinay None   0 Apr 18 16:01 dir1
+-rwxr-xr-x  1 Vinay None 133 Apr 16 13:08 dircheck.sh
+-rwxr--r--  1 Vinay None 134 Apr 16 14:11 filecheck.sh
+-rwxr-xr-x  1 Vinay None 133 Apr 16 12:48 helloscript.sh
+-rwxr-xr-x  1 Vinay None  82 Apr 18 14:14 mkdir.sh
+-rwxr-xr-x  1 Vinay None  81 Apr 16 14:04 mkfile.sh
+-rw-r--r--  1 Vinay None  25 Apr 18 14:19 null.txt
+drwxr-xr-x+ 1 Vinay None   0 Apr 16 11:33 pics
+-rwxr-xr-x  1 Vinay None 154 Apr 18 14:06 question2.sh
+-rwxr-xr-x  1 Vinay None  80 Apr 18 14:19 question4.sh
+-rwxr-xr-x  1 Vinay None 406 Apr 18 16:58 question5.sh
+-rwxr--r--  1 Vinay None 524 Apr 16 12:32 scriptfile.sh
+-rwxr-xr-x  1 Vinay None 190 Apr 17 17:36 takenote.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question5.sh
+./question5.sh: line 2: $'\r': command not found
+': not a valid identifieread: `num1
+': not a valid identifieread: `num2
+") yntax error: operand expected (error token is "
+
+./question5.sh: line 10: $'\r': command not found
+': not a valid identifierread: `direct
+./question5.sh: line 22: syntax error: unexpected end of file
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question5.sh
+./question5.sh: line 2: $'\r': command not found
+': not a valid identifieread: `num1
+': not a valid identifieread: `num2
+") yntax error: operand expected (error token is "
+
+./question5.sh: line 10: $'\r': command not found
+': not a valid identifierread: `direct
+./question5.sh: line 22: syntax error: unexpected end of file
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ find --help
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+
+default path is the current directory; default expression is -print
+expression may consist of: operators, options, tests, and actions:
+
+operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2
+
+positional options (always true): -daystart -follow -regextype
+
+normal options (always true, specified before other expressions):
+      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+      --version -xdev -ignore_readdir_race -noignore_readdir_race
+
+tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -path PATTERN -perm [-/]MODE -regex PATTERN
+      -readable -writable -executable
+      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N
+      -used N -user NAME -xtype [bcdpfls]
+      -context CONTEXT
+
+
+actions: -delete -print0 -printf FORMAT -fprintf FILE FORMAT -print
+      -fprint0 FILE -fprint FILE -ls -fls FILE -prune -quit
+      -exec COMMAND ; -exec COMMAND {} + -ok COMMAND ;
+      -execdir COMMAND ; -execdir COMMAND {} + -okdir COMMAND ;
+
+Report (and track progress on fixing) bugs via the findutils bug-reporting
+page at http://savannah.gnu.org/ or, if you have no web access, by sending
+email to <bug-findutils@gnu.org>.
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ find --help
+Usage: find [-H] [-L] [-P] [-Olevel] [-D help|tree|search|stat|rates|opt|exec] [path...] [expression]
+
+default path is the current directory; default expression is -print
+expression may consist of: operators, options, tests, and actions:
+
+operators (decreasing precedence; -and is implicit where no others are given):
+      ( EXPR )   ! EXPR   -not EXPR   EXPR1 -a EXPR2   EXPR1 -and EXPR2
+      EXPR1 -o EXPR2   EXPR1 -or EXPR2   EXPR1 , EXPR2
+
+positional options (always true): -daystart -follow -regextype
+
+normal options (always true, specified before other expressions):
+      -depth --help -maxdepth LEVELS -mindepth LEVELS -mount -noleaf
+      --version -xdev -ignore_readdir_race -noignore_readdir_race
+
+tests (N can be +N or -N or N): -amin N -anewer FILE -atime N -cmin N
+      -cnewer FILE -ctime N -empty -false -fstype TYPE -gid N -group NAME
+      -ilname PATTERN -iname PATTERN -inum N -iwholename PATTERN -iregex PATTERN
+      -links N -lname PATTERN -mmin N -mtime N -name PATTERN -newer FILE
+      -nouser -nogroup -path PATTERN -perm [-/]MODE -regex PATTERN
+      -readable -writable -executable
+      -wholename PATTERN -size N[bcwkMG] -true -type [bcdpflsD] -uid N
+      -used N -user NAME -xtype [bcdpfls]
+      -context CONTEXT
+
+
+actions: -delete -print0 -printf FORMAT -fprintf FILE FORMAT -print
+      -fprint0 FILE -fprint FILE -ls -fls FILE -prune -quit
+      -exec COMMAND ; -exec COMMAND {} + -ok COMMAND ;
+      -execdir COMMAND ; -execdir COMMAND {} + -okdir COMMAND ;
+
+Report (and track progress on fixing) bugs via the findutils bug-reporting
+page at http://savannah.gnu.org/ or, if you have no web access, by sending
+email to <bug-findutils@gnu.org>.
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question8.sh
+enter your firstname: vinay
+enter your lastname: bandi
+enter your age: 22
+Hello vinay bandi ,your age is 22
+Your age in 10 years will be: 32
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question11.sh
+Guess the secret number(1-5): 4
+better luck next time
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question11.sh
+Guess the secret number(1-5): 3
+You guessed it right
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question12.sh
+enter a number between 1and3:
+5
+./question12.sh: line 8: syntax error: unexpected end of file
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question12.sh
+enter a number between 1and3:
+5
+./question12.sh: line 8: syntax error: unexpected end of file
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question12.sh
+enter a number between 1and3:
+5
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question12.sh
+enter a number between 1and3:
+3
+you passed the test
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+./question13.sh: line 3: -l: command not found
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+./question13.sh: line 3: dircheck.sh: command not found
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+./question13.sh: line 3: dircheck.sh: command not found
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+./question13.sh: line 3: script/*.sh: No such file or directory
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+Script started, file is /
+script: cannot open /: Is a directory
+Terminated
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+Script started, file is /*.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ env --help
+Usage: env [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]
+Set each NAME to VALUE in the environment and run COMMAND.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -i, --ignore-environment  start with an empty environment
+  -0, --null           end each output line with NUL, not newline
+  -u, --unset=NAME     remove variable from the environment
+      --help     display this help and exit
+      --version  output version information and exit
+
+A mere - implies -i.  If no COMMAND, print the resulting environment.
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Report env translation bugs to <http://translationproject.org/team/>
+Full documentation at: <http://www.gnu.org/software/coreutils/env>
+or available locally via: info '(coreutils) env invocation'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+./question13.sh: line 3: script/: No such file or directory
+ls
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+dircheck.sh
+filecheck.sh
+helloscript.sh
+mkdir.sh
+mkfile.sh
+question11.sh
+question12.sh
+question13.sh
+question2.sh
+question4.sh
+question5.sh
+question6.sh
+question7.sh
+question8.sh
+scriptfile.sh
+takenote.sh
+ls
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+dircheck.sh
+filecheck.sh
+helloscript.sh
+mkdir.sh
+mkfile.sh
+question11.sh
+question12.sh
+question13.sh
+question2.sh
+question4.sh
+question5.sh
+question6.sh
+question7.sh
+question8.sh
+scriptfile.sh
+takenote.sh
+./question13.sh: line 7: `$1': not a valid identifier
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+dircheck.sh
+filecheck.sh
+helloscript.sh
+mkdir.sh
+mkfile.sh
+question11.sh
+question12.sh
+question13.sh
+question2.sh
+question4.sh
+question5.sh
+question6.sh
+question7.sh
+question8.sh
+scriptfile.sh
+takenote.sh
+./question13.sh: line 7: `$1': not a valid identifier
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+dircheck.sh
+filecheck.sh
+helloscript.sh
+mkdir.sh
+mkfile.sh
+question11.sh
+question12.sh
+question13.sh
+question2.sh
+question4.sh
+question5.sh
+question6.sh
+question7.sh
+question8.sh
+scriptfile.sh
+takenote.sh
+ls
+./question13.sh: line 7: `$1': not a valid identifier
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question13.sh
+dircheck.sh
+filecheck.sh
+helloscript.sh
+mkdir.sh
+mkfile.sh
+question11.sh
+question12.sh
+question13.sh
+question2.sh
+question4.sh
+question5.sh
+question6.sh
+question7.sh
+question8.sh
+scriptfile.sh
+takenote.sh
+ls
+./question13.sh: line 7: `*.sh': not a valid identifier
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question14.sh
+-----Our Menu-----
+salad
+rice
+veggies
+What you want to order: salad
+your salad in on the way
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question14.sh
+-----Our Menu-----
+salad
+rice
+veggies
+What you want to order: chicken
+Sorry! we don't serve chicken
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+4
+./question15.sh: line 5: syntax error near unexpected token `i'
+./question15.sh: line 5: `for i=0 ; i<x+1 ; i++'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+6
+./question15.sh: line 5: syntax error near unexpected token `i=0'
+./question15.sh: line 5: `for [ i=0 ; i<x+1 ; i++ ]'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+5
+./question15.sh: line 5: syntax error near unexpected token `('
+./question15.sh: line 5: `for ( i=0 ; i<x+1 ; i++ )'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+5
+./question15.sh: line 5: syntax error near unexpected token `('
+./question15.sh: line 5: `for ( i=0 ; i < "$x"+"1" ; i++ )'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+4
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+5
+HelloHelloHelloHelloHelloHello
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ echo --help
+--help
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ echo --help
+--help
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+5
+0 Hello
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+5 Hello
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question15.sh
+how many times you want to iterate
+5
+1 Hello
+2 Hello
+3 Hello
+4 Hello
+5 Hello
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ touch superhumans.txt
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ rm superhumans.txt
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ touch superheros.txt
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question16.sh
+AntMan
+Aquaman
+Asterix
+Atom
+Avengers
+Batgirl
+Batman
+Batwoman
+Black Canary
+Black Panther
+Captain America
+Captain Marvel
+Catwoman
+Conan the Barbarian
+Daredevil
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question16.sh
+superheros.txt
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question16.sh
+./question16.sh: line 8: $filename: ambiguous redirect
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question16.sh
+AntMan
+Aquaman
+Asterix
+Atom
+Avengers
+Batgirl
+Batman
+Batwoman
+Black Canary
+Black Panther
+Captain America
+Captain Marvel
+Catwoman
+Conan the Barbarian
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question16.sh
+AntMan
+Aquaman
+Asterix
+Atom
+Avengers
+Batgirl
+Batman
+Batwoman
+Black Canary
+Black Panther
+Captain America
+Captain Marvel
+Catwoman
+Conan the Barbarian
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ man --echo
+man: unrecognized option '--echo'
+Try 'man --help' or 'man --usage' for more information.
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ echo --man
+--man
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ man echo
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./math.sh
+7
+3
+10
+2
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./bigmath.sh
+Enter your num1: 2
+Enter your num2: 3
+./bigmath.sh: line 6: expr 2 + 3: syntax error in expression (error token is "2 + 3")
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./bigmath.sh
+Enter your num1: 4
+Enter your num2: 5
+./bigmath.sh: line 6: 4: command not found
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./bigmath.sh
+Enter your num1: 5
+Enter your num2: 5
+./bigmath.sh: line 6: syntax error near unexpected token `('
+./bigmath.sh: line 6: `Ans=(( expr $num1 + $num2 ))'
+
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./bigmath.sh
+Enter your num1: 4
+Enter your num2: 4
+8
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question21.sh
+./question21.sh: line 4: syntax error near unexpected token `echo'
+./question21.sh: line 4: `    echo "function is created"'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question21.sh
+bash: question21.sh: line 4: syntax error near unexpected token `echo'
+bash: question21.sh: line 4: `    echo "function is created"'
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question21.sh
+this message is after coming out of function
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question21.sh
+this message is after coming out of function
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source msg
+bash: msg: No such file or directory
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question21.sh
+this message is after coming out of function
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question21.sh
+this message is after coming out of function
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question21.sh
+this message is after coming out of function
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question21.sh
+function is created
+this message is after coming out of function
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question22.sh
+global number is
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question22.sh
+local number is
+global number is
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question22.sh
+local number is
+global number is
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question22.sh
+local number is 6
+global number is 4
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question22.sh
+local number is 6
+global number is 4
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question23.sh
+enter age:
+3
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question23.sh
+enter age:
+3
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question23.sh vinay
+enter age:
+3
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question23.sh vinay
+enter name:
+vinay
+enter age:
+3
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question20.sh
+enter directory name: dir1
+bash: $dir2: ambiguous redirect
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ source question20.sh
+enter directory name: dir1
+bash: pics: Is a directory
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question1.sh
+Vinay
+/home/Vinay
+xterm
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ env
+USERDOMAIN=DESKTOP-57EDE47
+OS=Windows_NT
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+PROCESSOR_LEVEL=6
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+CommonProgramW6432=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+shells=ls
+TZ=Asia/Kolkata
+HOSTNAME=DESKTOP-57EDE47
+PUBLIC=C:\Users\Public
+OLDPWD=/home/Vinay
+USERNAME=Vinay
+LOGONSERVER=\\DESKTOP-57EDE47
+PROCESSOR_ARCHITECTURE=AMD64
+LOCALAPPDATA=C:\Users\Vinay\AppData\Local
+COMPUTERNAME=DESKTOP-57EDE47
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+USER=Vinay
+!::=::\
+SYSTEMDRIVE=C:
+USERPROFILE=C:\Users\Vinay
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+SYSTEMROOT=C:\Windows
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-57EDE47
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+OneDriveConsumer=C:\Users\Vinay\OneDrive
+PWD=/home/Vinay/script
+HOME=/home/Vinay
+TMP=/tmp
+LC_CTYPE=en_US.UTF-8
+TERM_PROGRAM=mintty
+TERM_PROGRAM_VERSION=3.4.7
+OneDrive=C:\Users\Vinay\OneDrive
+ZES_ENABLE_SYSMAN=1
+PROCESSOR_REVISION=8c01
+FPS_BROWSER_USER_PROFILE_STRING=Default
+PROFILEREAD=true
+NUMBER_OF_PROCESSORS=8
+ProgramW6432=C:\Program Files
+COMSPEC=C:\Windows\system32\cmd.exe
+APPDATA=C:\Users\Vinay\AppData\Roaming
+SHELL=/bin/bash
+TERM=xterm
+WINDIR=C:\Windows
+ProgramData=C:\ProgramData
+SHLVL=3
+MINTTY_SHORTCUT=/cygdrive/c/Users/Public/Desktop/Cygwin64 Terminal.lnk
+PRINTER=Microsoft Print to PDF
+PROGRAMFILES=C:\Program Files
+ALLUSERSPROFILE=C:\ProgramData
+TEMP=/tmp
+DriverData=C:\Windows\System32\Drivers\DriverData
+SESSIONNAME=Console
+ProgramFiles(x86)=C:\Program Files (x86)
+PATH=/usr/local/bin:/usr/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Vinay/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Vinay/AppData/Local/Programs/Microsoft VS Code/bin
+HOMEDRIVE=C:
+INFOPATH=/usr/local/info:/usr/share/info:/usr/info
+HOMEPATH=\Users\Vinay
+ORIGINAL_PATH=/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Vinay/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/Users/Vinay/AppData/Local/Programs/Microsoft VS Code/bin
+EXECIGNORE=*.dll
+_=/usr/bin/env
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question3.sh
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question3.sh 4 6
+1st variable is: 4
+2nd variable is: 6
+
+Vinay@DESKTOP-57EDE47 ~/script
+$ ./question9.sh
+acrobat atlas visa atomic capsule explore mayor network
+
+Vinay@DESKTOP-57EDE47 ~/script
+$
